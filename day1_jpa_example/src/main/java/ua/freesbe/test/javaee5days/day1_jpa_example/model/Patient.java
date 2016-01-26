@@ -1,6 +1,7 @@
 package ua.freesbe.test.javaee5days.day1_jpa_example.model;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -10,7 +11,9 @@ import java.util.List;
  */
 @Entity
 @Access(AccessType.FIELD)
-public class Patient {
+public class Patient implements Serializable{
+
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue
