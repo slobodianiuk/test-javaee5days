@@ -24,4 +24,8 @@ public class Pills implements Serializable{
 
     public Pills() {
     }
+
+    public String getTitle() {
+        return title;
+    }
 }

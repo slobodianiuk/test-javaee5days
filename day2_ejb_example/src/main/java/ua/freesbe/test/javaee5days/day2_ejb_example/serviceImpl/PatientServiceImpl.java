@@ -40,4 +40,8 @@ public class PatientServiceImpl implements PatientService{
         em.persist(patient);
         transaction.commit();
     }
+
+    public Patient merge(Patient patient) {
+        return em.merge(patient);
+    }
 }

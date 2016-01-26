@@ -11,6 +11,8 @@
     <modules>
         <module>day1_jpa_example</module>
         <module>day2_ejb_example</module>
+        <module>day3_jsf_example</module>
+        <module>application_ear</module>
     </modules>
 
 
