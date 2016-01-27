@@ -37,6 +37,10 @@
                     <groupId>ua.freesbe.test</groupId>
                     <artifactId>day2_ejb_example</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>ua.freesbe.test</groupId>
+                    <artifactId>day1_jpa-example</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
     </dependencies>

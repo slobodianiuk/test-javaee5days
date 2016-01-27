@@ -1,6 +1,5 @@
 package ua.freesbe.test.javaee5days.day3_jsf_example.beans;
 
-import com.sun.javafx.scene.layout.region.Margins;
 import org.primefaces.model.DualListModel;
 import ua.freesbe.test.javaee5days.day1_jpa_example.model.Patient;
 import ua.freesbe.test.javaee5days.day1_jpa_example.model.Pills;

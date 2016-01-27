@@ -2,7 +2,6 @@ package ua.freesbe.test.javaee5days.day1_jpa_example.model;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -51,8 +50,16 @@ public class Patient implements Serializable{
         this.gender = gender;
     }
 
+    public Gender getGender() {
+        return gender;
+    }
+
     public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
+    }
+
+    public Date getDateOfBirth() {
+        return dateOfBirth;
     }
 
     public List getPatientsPills() {
