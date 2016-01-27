@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>ua.freesbe.test</groupId>
-            <artifactId>day1_jpa-example</artifactId>
+            <artifactId>day1_jpa_example</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
